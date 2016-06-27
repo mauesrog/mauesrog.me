@@ -1,0 +1,33 @@
+<!-- Mauricio Esquivel Rogel -->
+<!-- 06/26/2016 -->
+<!-- HTML of sample webpage showing a 2 photo slideshow of my friends -->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Sample webpage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Fixed header div -->
+    <div class="header">
+      <!--Font awesome's bars icon. fontawesome.io -->
+      <i class="fa fa-bars" aria-hidden="true" id="menu"></i>
+      <h1>My best friends</h1>
+      <!--Font awesome's right arrow icon. fontawesome.io -->
+      <i class="fa fa-arrow-right" aria-hidden="true" id="next"></i>
+    </div>
+    <!-- The div that gives the header a cool-looking transition when scrolling -->
+    <div id="illusion">
+      <h1>My best friends</h1>
+    </div>
+    <div class="main">
+      <img src="friends.jpg" id="image1"></img>
+    </div>
+    <!-- <div id="mask"></div> -->
+  </body>
+  <script src="scripts/index.js"></script>
+</html>
